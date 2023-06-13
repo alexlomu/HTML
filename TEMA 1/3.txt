@@ -1,0 +1,27 @@
+Bloques genericos:
+
+Direcciones-Address
+Citas explicitas-Blockquote
+Texto borrado-Del
+Bloque genérico-Div (divisiones que nos pueden servir para darle atributos a una sección)
+Titulos-Heading
+Separacion Horizontal-Horizontal
+Texto Insertado-Insertado
+Noscipt
+Parrafo-P
+Texto preformateado-Pre
+
+Listas:
+
+Lista de definiciones-DL
+    Elementos de la lista de definiciones- DT y DD
+Lista Ordenada-OL
+    Elemento de la lista-LI
+Listas no ordenadas-UL
+
+Tablas:
+Cabecera de la tabla-Caption
+Filas-trColumnas-td
+Cabecera de columna-th
+Agrupación de columnas-ColGroup
+Columnas-Col
