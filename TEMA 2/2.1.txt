@@ -1,0 +1,21 @@
+Este tema trata:
+
+Introduccion a los estilos en cascada
+Estilos aplicados a los Textos
+Estilos aplicados a Listas
+Estilo aplicados a Bloques
+Estilos aplicados a estructuras
+Estilos aplicados a Tablas
+Estilos aplicados a Elementos multimedia
+Estilos aplicados a Formularios
+
+
+Como se escribe: a{font-family: Arial;color:#FFFFFF;}
+    <link href="style.css" media="all" rel="tylesheet" type="text/css"/>
+En una sección <style> de la cabecera
+    <style> body{font-family:Arial}h1{color:#888888}p{color:green}</style>
+Inline
+    <p style="color:green">Texto</p>
+
+
+con * hacemos que sea universal(que se aplique para todo)
