@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Ejemplo de estructura de página en html
+        </title>
+    </head>
+    <body>
+        <h1>Hola Mundo</h1>
+
+
+            <!-- estructuras de form basicas
+        <form action="(url)" method="GET" type="reset">  action es para decir a donde va la accion/get para obtener informacion
+        <form action="" method="GET" type="reset">  POST es para que vaya a ese sitio y modifique las cosas que tenga que modificar
+        <form action="" method="GET" target="_blank"> target para definir donde queremos que se ejecute la información que tenemos con blank es en una nueva pagina-->
+        <!-- ejemplo de form-->
+        <form action="" method="POST" target="_blank">
+            <label>Nombre:</label>
+            <input type="text" placeholder="Nombre" value="Nombre" id="nombre" name="nombre">
+            <button>Aceptar!<img src="(link imagen)"></button> <!-- con disabled dentro de label o button hacemos que se desactive(no podemos clicar en el)-->
+        </form>
+
+
+        <form action="http://admitecity.ieconsulting.es/login" method="POST">
+            <label>Nombre:</label>
+            <input type = "text" placeholder = "Nombre" maxlenght="3" value = "Nombre" id = "nombre" name = "buenosidas"> <!-- size es limite de anchura que se ve en la página y el max lenght la cantidad de letras que se puede escribir dentro-->
+            <label>email:</label>
+            <input type = "email" pattern=".+@gmail\.com" placeholder="email" size="10" name="buenosdias"> <!-- con el pattern obligamos a que tengan que poner algo para poder poner el formulario-->
+            <button>Aceptar!</button>
+        </form>
+
+        <form action="form" id="cafe">
+            <fieldset>
+                <legend>HAGA SU PEDIDO DE CAFE</legend>
+                <label for="solo">Café Solo</label>
+                <input type="radio" id="solo" value="solo" name = "group1"><br> <!-- br hace salto de línea-->
+                
+                <label for="conleche">Café con leche</label>
+                <input type="radio" id="con leche" value="con leche" name = "group1"><br>
+
+                <label for="conleche">Café Descafeinado</label>
+                <input type="radio" id="descafeinado" value="descafeinado" name = "group1"><br>
+
+                <input type="submit" value="Hacer pedido">
+
+                <input type="password"> <!-- con el password hacemos que no se vea lo de dentro-->
+                
+                <input type="reset" value="reset"> <!-- quita lo que tenemos seleccionado dentro del formulario-->
+
+                <input type="search"> <!-- hecho para buscar algo-->
+                
+                <textarea cols ="20" rows="20" wrap="hard" placeholder="Escriba aquí su texto"></textarea> <!-- zona amplia para ecribir texto-->
+            </fieldset>
+        </form>
+
+        <a href="https://google.es">Google</a>
+        <p>esto es así <b>verdad</b> o <i>mentira</i></p> <!-- b para escribir en negrita y la i para cursiva-->
+        <code>
+            int a = 10 <!-- se muestra como código-->
+        </code>
+
+        <article>
+            <h1>titulo</h1>
+            <p> desarrollo </p>
+        </article>
+        <header><!-- el header se pone al principio-->
+            <nav> <!-- COMO HACER UN MENU IMPORTANTISIMO-->
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <footer></footer> <!-- el footer se pone al final-->
+    </body>
+
+
+</html>
+clase3 min 26
