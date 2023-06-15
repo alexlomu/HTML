@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Ejemplo de estructura de página en html
+            
+        </title>
+    <link href="style1.css" media="all" rel="stylesheet" type="text/css"/>
+    <style> 
+    a[href^="https"]{color:chartreuse;}
+    a:hover {color:pink;}
+    a:active {color:red;}
+    a:link {
+        color:blue;
+    }
+    a:visited {
+        color:purple;
+    }
+    #conborde{size:100px;}
+    div h1 {font-size:100px;}
+    </style>
+    </head>
+
+    <body>
+
+        <!-- selector de clase-->
+        <div class="par">
+            <h1 aling=left>Hola Mundo</h1>
+            <p class="rojo">Texto de ejemplo.</p>
+            <p id=conborde> demo</p>
+        </div>
+            
+        <div class="impar">
+            <span class=rojo>Texto ejemplo</span>
+            <span class=rojo>Texto</span><span aling=left> ejemplo.</span>
+            <h1 id=conborde>Título</h1>
+        </div>
+
+        <div class="par">
+            <p>demo</p>
+            <a href="https://google.com">Google</a> <!--selector de atributo-->
+        </div>
+    
+        <form>
+            <input type="button" value="boton">
+        </form>
+    
+    </body>
+
+
+</html>

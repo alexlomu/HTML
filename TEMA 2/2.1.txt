@@ -19,3 +19,49 @@ Inline
 
 
 con * hacemos que sea universal(que se aplique para todo)
+
+SELECTOR DE TIPO:
+Selecciona el tipo de elemento sobre el que queremos aplicar los estilos:
+elemento{propiedad:valor}
+
+SELECTOR DE CLASE:
+Selecciona todos los elementos con la clase identificada
+<div class="contenido><div/>
+.contenido{color=red;}
+
+SELECTOR DE ATRIBUTO:
+Selecciona elementos con atributo especifico y el valor dado
+[atributo=valor]
+
+SELECTOR DE PSEUDO-CLASE:
+Se utilizan los dos puntos para poder identificar accion que ha sufrido el elemento
+a:hover{color:blue}
+subclases asociadas al comportamiento que pueda tener:
+:after :before :empty :enable :first-of-type :first-letter :first-line :first-of-type :focus
+:hover :in-range :invalid :lang(language) :last-of-type :link :not(elemento) 
+:nth-of-type(n) :only-of-type :only-child :optional :out-of-range
+
+SELECTOR DE IDENTIFICADOR:
+<p id="ejemplo">Texto</p>
+#ejemplo {font-family:Arial;}
+
+SELECTOR DE RELACIÓN:
+Seleccionará todos los elementos p incluidos que esten dentro de un div
+div p{font-family:Arial;}
+E1 E2(todos los incluidos)
+E1>E2(hijos de un E1)
+E1 + E2(E2 a continuación directa)
+E1-E2(todos los E2 precedidos por E1)
+:nth-child(n)
+:last-child
+
+Cuidado con la jerarquia: Un conflicto ocurre cuando a un elemento le afectan diversos estilos. En este caso hemos de ver cúal es el estilo que predomina
+
+Unidades:
+% Se da el valor en el porcentaje relativo
+In pulgadas
+Cm centimetros
+Mm milimetros
+Em Este tamaño está asociado al tamaño actual de fuente siendo 1 del mismo tamaño que la fuente y 2 el doble
+Pt Puntos que eviale a 1/72 de pulgadas
+Px Pixeles

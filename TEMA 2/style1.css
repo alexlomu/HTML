@@ -4,3 +4,37 @@ body{
 h1{
     color:pink;
 }
+
+.par{
+    background-color: rgb(123, 119, 119);
+
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.impar{
+    background-color: aqua;
+
+    height: 100px;
+    width: 100px;
+}
+
+input[type=button]{
+  border:5px;
+  line-height:2.5;
+  padding:0 20px;
+  font-size:1rem;
+  background-color: red;
+  border-radius: 15px;
+}
+
+input[type=button]:hover{
+    border:5px;
+    line-height:2.5;
+    padding:0 20px;
+    font-size:1rem;
+    background-color: rgb(205, 208, 31);
+    border-radius: 15px;
+  }
