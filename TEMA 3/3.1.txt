@@ -1,0 +1,117 @@
+JAVASCRIPT
+
+Características Principales del Lenguaje:
+Comentarios
+Definición de variables
+Tipos de Datos
+Objectos
+Arrays
+Palabras Reservadas
+
+COMENTARIOS:
+var a = "ejemplo"; // Esto es un comentario en línea
+/* var b = "ejemplo"; Comentario en sección y pueden abarcar varías líneas sin problema */
+
+DEFINICIÓN DE VARIABLES:
+Definición:
+    var a ;
+    var _a1;
+    var $ab;
+    var a_1, a_2, a_3;
+Definición con inicialización:
+    var a = 10;
+Unicode;
+    var (pi)=3.1416;
+
+TIPOS DE DATOS:
+
+NUMERO:
+Sintaxis (+-)[digits][.digits]
+    var a = 5;
+    var b = 5.3;
+    var c = -3.6;
+6.02e23=6.02*10^23
+En caso de problema--> NaN
+Número hexadecimales "0x" o "0X":
+    var a = 0xA15;
+    var b = 0xB9A2;
+
+TEXTOS:
+Sintaxis["][(Aa...Zz...1...9)*(Símbolos)*]["]
+    var texto = "Estp es una cadena de carácteres"
+    var cadena = "esto también"
+    var cadena_multilinea = "línea 1/n línea 2"
+    var cadena_numerica = "123456789"
+
+BOOLEANOS:
+Sólo dos valores true o false
+var a=10;
+var b=10;
+var c=a==b //Tendrá el valor "true"
+undefined, null, 0, -0, NaN y "" String vacío son considerados como false
+
+var c = 0
+if(c) "hola" NO DEVUELVE NADA
+
+if(!c) "hola" DEVUELVE HOLA porque es if el contrario de c(!) escriba "hola"
+hola
+
+OBJETOS:
+Date(por ejemplo)
+    Compuesto por, variables, funciones
+    Arrays y Expresiones regulares
+    Es un agrupador:
+        var obj = {}
+        var obj1 = {
+            "nombre":"Aday",
+            "apellido":"Guerra"
+        };
+        var nom = obj1["nombre"] // entonces nom es "Aday"
+
+EXPRESIONES REGULARES:
+Se utilizan para validar contenido dentro de los formularios o campos.
+Parametrización que tenemos para identificar que hace max con una cadena de textos
+    \
+    ^
+    ...
+
+OPERACIONES:
+Operaciones de BIT:
+    & AND
+    | 
+    ~ NOT
+    ^ XOR
+    << Desplazamiento a la izq
+    >> Desplazamiento a la dentro
+
+Operaciones de Asignación:
+    = igual
+    +=
+    -=
+    /= con division
+    %= con porcentaje
+
+    == (devuelve true or false)
+    !=
+    === igual valor y tipo
+    !== distinto en valor o tipo
+    >
+    <
+    >=
+    <=
+
+Operadores Otros:
+    DELETE
+    IN
+    INSTANCEOF
+    TYPEOF
+    TERNARIO
+
+ESTRUCTURAS CONDICIONALES:
+    IF
+    IF ELSE
+    WHILE
+    DO WHILE
+    FOR
+    FOR IN
+    
